@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <!-- Стили элементов списка артистов -->
+    <style name="ArtistNameList">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingTop">22dp</item>
+    </style>
+    <style name="ArtistGenreList">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="ArtistWorkList">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- Стили элементов информации об артисте -->
+    <style name="ArtistNameInfo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="ArtistGenreInfo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGenreArtistInfo</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+    </style>
+    <style name="ArtistWorkInfo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWorkArtistInfo</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+    </style>
+
+    <style name="ArtistBioTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+    </style>
+
+    <style name="ArtistBiography">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:lineSpacingExtra">11dp</item>
+    </style>
+</resources>

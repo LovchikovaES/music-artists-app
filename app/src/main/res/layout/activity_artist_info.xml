@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.yandex.music.musicartists.ArtistInfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.loopj.android.image.SmartImageView
+                android:id="@+id/image"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/genres"
+                android:layout_below="@+id/image"
+                android:layout_centerHorizontal="true"
+                style="@style/ArtistGenreInfo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/albums_songs"
+                android:layout_below="@+id/genres"
+                android:layout_centerHorizontal="true"
+                style="@style/ArtistWorkInfo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bio_label"
+                android:text="@string/bio"
+                android:layout_below="@+id/albums_songs"
+                android:layout_centerHorizontal="true"
+                style="@style/ArtistBioTitle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bio_desc"
+                android:layout_below="@+id/bio_label"
+                android:layout_centerHorizontal="true"
+                style="@style/ArtistBiography" />
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Исполнители</string>
+    <string name="no_internet">Нет интернета.</string>
+    <string name="refresh">Обновить</string>
+    <string name="no_artists">Пока нет ни одного исполнителя</string>
+    <string name="error_load">Произошла ошибка при загрузке исполнителей. Попробуйте позднее.</string>
+    <string name="bio">Биография</string>
+    <string name="song">песня</string>
+    <string name="songs">песен</string>
+    <string name="songs_between_2_and_4">песни</string>
+    <string name="album">альбом</string>
+    <string name="albums">альбомов</string>
+    <string name="albums_between_2_and_4">альбома</string>
+</resources>
